@@ -297,7 +297,7 @@ body {
   box-sizing: border-box;
   padding: 30px 0;
   width: 410px;
-  right: 37%;
+  left: calc(50% - 205px);
   top: 220px;
   background-color: #fff;
   z-index: 110;
@@ -335,10 +335,12 @@ body {
   text-transform: uppercase;
   color: #fff;
   background-color: #0067b8;
+  border-color: transparent;
 }
 .submit:hover {
-  background-color: #fff;
+  background-color: transparent;
   color: #616161;
+  border: 1px solid #999;
 }
 .login__forgot {
   font: normal 13px "SegoeUI";
@@ -356,7 +358,7 @@ body {
   position: fixed;
   display: none;
   top: 235px;
-  right: 38.2%;
+  left: calc(50% + 180px);
   width: 12px;
   height: 12px;
   background-position: -32px -38px;
