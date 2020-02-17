@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mini Lab</title>
+</head>
+<body>
+<header class="header">
+  <div class="header-wrapper clear">
+    <nav class="nav header__nav">
+      <h1 class="logo-title"><a href="#" class="logo header__logo">Mini<span class="grey">Lab</span></a></h1>
+      <ul class="menu">
+        <li class="menu__item"><a href="#" class="menu__link">About Us</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Surface</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Xbox</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Підтримка</a></li>
+        <li class="menu__item extra-rel"><a href="#" class="menu__link extra">Додатково</a>
+          <div class="submenu extra__submenu">
+            <div class="wrapper wrapper-submenu">
+              <div class="row">
+                <div class="submenu-column submenu__column">
+                  <h2 class="submenu-column__title">Програмне забезпечення</h2>
+                  <ul class="submenu-column__list submenu-list">
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Програми для ОС</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Skype</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Notepad++</a></li>
+                  </ul>
+                </div>
+                <div class="submenu-column submenu__column">
+                  <h2 class="submenu-column__title">Комп’ютери та пристрої</h2>
+                  <ul class="submenu-column__list submenu-list">
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Планшети</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Аксесуари та інше</a></li>
+                  </ul>
+                </div>
+                <div class="submenu-column submenu__column">
+                  <h2 class="submenu-column__title">Розваги</h2>
+                  <ul class="submenu-column__list submenu-list">
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Ігри</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Ігри для ПК</a></li>
+                  </ul>
+                </div>
+                <div class="submenu-column submenu__column">
+                  <h2 class="submenu-column__title">Бізнес</h2>
+                  <ul class="submenu-column__list submenu-list">
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Реклама</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Корпоративні рішення</a></li>
+                  </ul>
+                </div>
+                <div class="submenu-column submenu__column">
+                  <h2 class="submenu-column__title">DevTools & IT</h2>
+                  <ul class="submenu-column__list submenu-list">
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Sublime Text 3</a></li>
+                    <li class="submenu-list__item">
+                      <a href="#" class="submenu-list__link">Розробка програм для Android</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Документи</a></li>
+                  </ul>
+                </div>
+                <div class="submenu-column submenu__column">
+                  <h2 class="submenu-column__title">Інше</h2>
+                  <ul class="submenu-column__list submenu-list">
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Наш магазин</a></li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Безкоштовні завантаження</a>
+                    </li>
+                    <li class="submenu-list__item"><a href="#" class="submenu-list__link">Освіта</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="submenu__footer submenu-footer">
+              <p class="check-all"><a href="#" class="check-all__link">Переглянути все</a></p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div class="top-content header__top-content">
+      <form action="" method="get" class="search clear">
+        <label for="searching">
+          <input type="search" name="search" id="searching" class="search__type-field" placeholder="Пошук на сайті" list="my-list" required>
+        </label>
+        <datalist id="my-list">
+          <option value="Macbook"></option>
+          <option value="IPhone"></option>
+        </datalist>
+        <button type="submit" class="search-button search__button"></button>
+      </form>
+      <div class="cart-container top-content__cart"><a href="#" class="cart"></a></div>
+      <input type="checkbox" name="login" id="account" class="login-input">
+      <label for="account" class="login"> Вхід </label>
+      <div class="blackout login__blackout"></div>
+      <form action="" method="post" class="login__form login-form">
+        <h2 class="form-title form__title">Вхід</h2>
+        <div class="login-wrapper">
+          <div class="login-form__data login-data">
+            <label for="account-email"><input type="email" name="email" id="account-email" placeholder="Електронна адреса" class="login__input"></label>
+            <label for="account-password"><input type="password" name="password" id="account-password" placeholder="Пароль" class="login__input"></label>
+          </div>
+          <input type="submit" value="Продовжити" class="submit">
+          <p class="login__forgot forgot">Забули пароль?<a href="#" class="forgot__link"> Відновити.</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="wrapper main__wrapper">
+    <section class="slider">
+      <div class="slider__content">
+        <h2 class="slider__title title">Цікавий планшет</h2>
+        <p class="slider__caption caption caption-white">Розкрий потенціал свого пристрою разом з нами всього за 250 грн/міс.</p>
+        <a href="#" class="link link-white">придбати пристрій</a>
+      </div>
+      <div class="slider__buttons slider-buttons">
+        <a href="#" class="slider-buttons__button slider-buttons__button_active"></a>
+        <a href="#" class="slider-buttons__button slider-buttons__button_inactive"></a>
+      </div>
+      <div class="slider-arrows slider__arrows">
+        <a href="#" class="slider-arrows__arrow slider-arrows__arrow_left"></a>
+        <a href="#" class="slider-arrows__arrow slider-arrows__arrow_right"></a>
+      </div>
+    </section>
+    <section class="products">
+      <h2 class="products-title products__title">перелік вдалих послуг</h2>
+      <div class="figures products__figures">
+        <figure class="product figures__product">
+          <img src="images/store.png" alt="" class="product-image product__image">
+          <figcaption class="product-description product__description">
+            <h2 class="product-title product__title">Магазин товарів</h2>
+            <p class="product-text product__text">Знайдіть технологію, оптимальну для обробки завдань удома, у школі, на роботі та для розваг.</p>
+            <a href="#" class="product-link product__link">Перейти та замовити</a>
+          </figcaption>
+        </figure>
+        <figure class="product figures__product">
+          <img src="images/huawei.png" alt="" class="product-image product__image">
+          <figcaption class="product-description product__description">
+            <h2 class="product-title product__title">Телефони Huawei</h2>
+            <p class="product-text product__text">Безкоштовна програма електронної пошти для пристроїв з ОС iOS, Android і Samsung.Безкоштовна програма електронної пошти для пристроїв з ОС iOS, Android і Samsung.</p>
+            <a href="#" class="product-link product__link special">Купити крутий телефон через нашу підписку</a>
+          </figcaption>
+        </figure>
+        <figure class="product figures__product">
+          <img src="images/onetouch.png" alt="" class="product-image product__image">
+          <figcaption class="product-description product__description">
+            <h2 class="product-title product__title">Планшет OneTouch</h2>
+            <p class="product-text product__text">Упорядковуйте свої нотатки та події.</p>
+            <a href="#" class="product-link product__link">Детальніше про девайс</a>
+          </figcaption>
+        </figure>
+        <figure class="product figures__product">
+          <img src="images/adaptive.png" alt="" class="product-image product__image">
+          <figcaption class="product-description product__description">
+            <h2 class="product-title product__title">Адаптивні пристрої</h2>
+            <p class="product-text product__text">Легко втілюйте свої ідеї в життя в Інтернеті.</p>
+            <a href="#" class="product-link product__link">Приступити до роботи</a>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <section class="bottom-section">
+      <h2 class="title title-black">Отримай MacBook безкоштовно</h2>
+      <p class="caption caption-black bottom-section__caption">Залишайтеся на зв’язку, використовуючи будь-які пристрої, за допомогою безкоштовної поштової служби.</p>
+      <a href="#" class="link link-black">придбати пристрій</a>
+    </section>
+    <section class="follow-us">
+      <p class="follow-us__text">Стежте за нами:</p>
+      <a href="#" class="follow-us__icon icon edge"></a>
+      <a href="#" class="follow-us__icon icon chrome"></a>
+      <a href="#" class="follow-us__icon icon opera"></a>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="wrapper">
+    <div class="footer-menu footer__menu">
+      <div class="footer-column footer__column">
+        <h3 class="list__title">Що нового?</h3>
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">Ліцензійні програми</a></li>
+          <li class="list__item"><a href="#" class="list__link">Купити ключ</a></li>
+        </ul>
+      </div>
+      <div class="footer-column footer__column">
+        <h3 class="list__title">Підтримка 24/7</h3>
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">Обліковий запис</a></li>
+          <li class="list__item"><a href="#" class="list__link">Лог завантажень</a></li>
+          <li class="list__item"><a href="#" class="list__link">Повернення</a></li>
+          <li class="list__item"><a href="#" class="list__link">Відстеження замовлення</a></li>
+          <li class="list__item"><a href="#" class="list__link">Підтримка</a></li>
+        </ul>
+      </div>
+      <div class="footer-column footer__column">
+        <h3 class="list__title">Освіта</h3>
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">Навчання</a></li>
+          <li class="list__item"><a href="#" class="list__link">Студенти</a></li>
+          <li class="list__item"><a href="#" class="list__link">Для навчальних закладів</a></li>
+          <li class="list__item"><a href="#" class="list__link">Спеціальні пропозиції</a></li>
+        </ul>
+      </div>
+      <div class="footer-column footer__column">
+        <h3 class="list__title">Бізнес</h3>
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">Великий бізнес</a></li>
+          <li class="list__item"><a href="#" class="list__link">Виробництво</a></li>
+          <li class="list__item"><a href="#" class="list__link">Фінансові послуги</a></li>
+        </ul>
+      </div>
+      <div class="footer-column footer__column">
+        <h3 class="list__title">Розробка</h3>
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">Центр розробників</a></li>
+          <li class="list__item"><a href="#" class="list__link">Мережа</a></li>
+          <li class="list__item"><a href="#" class="list__link">SkyNet</a></li>
+        </ul>
+      </div>
+      <div class="footer-column footer__column">
+        <h3 class="list__title">Компанія</h3>
+        <ul class="list">
+          <li class="list__item"><a href="#" class="list__link">Вакансія</a></li>
+          <li class="list__item"><a href="#" class="list__link">Конфіденційність</a></li>
+          <li class="list__item"><a href="#" class="list__link">Інвертар</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-footer clear">
+      <a href="#" class="language bottom-footer__language">Вибір мови (Українська)</a>
+      <div class="links">
+        <a href="#" class="links__link">Контактні дані</a>
+        <a href="#" class="links__link">Положення про конфіденціальність</a>
+        <a href="#" class="links__link">Умови використання</a>
+        <a href="#" class="links__link">Відомості про рекламу</a>
+        <p class="copy links__link">&copy; MiniLab 2018</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
